@@ -1,0 +1,19 @@
+{
+    "name": "socialiteproviders/sso",
+    "description": "Sso OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "authors": [{
+        "name": "HarrySudana",
+        "email": "harrysudana@gmail.com.com"
+    }],
+    "require": {
+        "php": ">=5.5.9",
+        "ext-json": "*",
+        "socialiteproviders/manager": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\Sso\\": ""
+        }
+    }
+}
